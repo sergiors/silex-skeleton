@@ -1,0 +1,20 @@
+{
+    "name": "sergiors/acme",
+    "authors": [
+        {
+            "name": "Sérgio Rafael Siqueira",
+            "email": "sergio@inbep.com.br"
+        }
+    ],
+    "require": {
+        "php": "^7.0",
+        "silex/silex": "^2.1",
+        "monolog/monolog": "^1.22",
+        "twig/twig": "^2.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sergiors\\Acme\\": "src"
+        }
+    }
+}
